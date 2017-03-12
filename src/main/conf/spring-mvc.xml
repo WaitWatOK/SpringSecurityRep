@@ -15,7 +15,7 @@
     <!-- 注解驱动 -->
     <mvc:annotation-driven />
     
-    <!-- 静态资源文件目录自动加载 -->
+    <!-- 静态资源文件目录自动加载  wanglei-->
 	<mvc:resources location="/resources/" mapping="/resources/**" />    
 	
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
